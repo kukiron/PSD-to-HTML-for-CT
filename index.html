@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coalition Skills Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400i|Oswald:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="global-container">
+      <header class="header">
+        <div class="navigation-bar">
+          <a href="index.html"><img src="images/logo.png" alt="Company Logo"></a>
+          <ul>
+            <li><a href="#history">01. History</a></li>
+            <li><a href="#team">02. Team</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div id="sticky-nav">
+        <div class="navigation-bar">
+          <a href="index.html"><img src="images/sticky-nav-logo.png" alt="Sticky Navigation Logo"></a>
+          <ul>
+            <li><a href="#history">01. History</a></li>
+            <li><a href="#team">02. Team</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="history" class="layer">
+        <div class="group1">
+          <div class="wrapper-1">
+            <p class="history">HISTORY</p>
+            <p class="text01">01.</p>
+          </div>
+          <div class="history-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+          </div>
+        </div>
+
+        <div id="team" class="carousel">
+          <div class="thumbnails group">
+            <img src="images/group_10.png" alt="Carousel Image">
+            <img src="images/group_8.png" alt="Carousel Image">
+            <img src="images/group_10.png" alt="Carousel Image">
+            <img src="images/group_8.png" alt="Carousel Image">
+          </div>
+          <div class="circle-nav no-space-between-inline-blocks">
+            <div class="ellipse"></div>
+            <div class="ellipse copy-1"></div>
+            <div class="ellipse copy-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group2">
+        <div class="wrapper-2">
+          <p class="climb">CLIMB</p>
+          <p class="text02">02.</p>
+        </div>
+        <div class="climb-text">
+          <p>Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+        </div>
+      </div>
+
+      <div class="tab-div">
+        <div class="tab">
+          <button class="tablinks" onclick="openTabs(event, 'Mountain1')" id="defaultOpen">MOUNTAIN 1</button>
+          <button class="tablinks" onclick="openTabs(event, 'Mountain2')">MOUNTAIN 2</button>
+        </div>
+
+        <div id="Mountain1" class="tabcontent">
+          <img src="images/tab-image-1.png" alt="Mountain Image">
+          <div class="content">
+            <div class="content-inner">
+              <h2 class="schedule">SCHEDULE</h2>
+              <ul class="schedule-list">
+                <li>25 Nov 2016</li>
+                <li>28 Nov 2016</li><br>
+                <li>18 Dec 2016</li><br>
+                <li>7 Jan 2016</li>
+                <li>Vestibulum viverra</li>
+                <li>Vestibulum viverra</li><br>
+                <li>Vestibulum viverra</li><br>
+                <li>Vestibulum viverra</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="Mountain2" class="tabcontent">
+          <img src="images/tab-image-2.png" alt="Mountain Image">
+          <div class="content">
+            <div class="content-inner">
+              <h2 class="schedule">SCHEDULE</h2>
+              <ul class="schedule-list">
+                <li>25 Nov 2016</li>
+                <li>28 Nov 2016</li><br>
+                <li>18 Dec 2016</li><br>
+                <li>7 Jan 2016</li>
+                <li>Vestibulum viverra</li>
+                <li>Vestibulum viverra</li><br>
+                <li>Vestibulum viverra</li><br>
+                <li>Vestibulum viverra</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-inner">
+          <a href="#"><img class="logo" src="images/footer-logo.png" alt="Footer Logo"></a>
+          <p class="footer-text">COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/tabs.js"></script>
+    <script type="text/javascript" src="js/sticky-nav.js"></script>
+  </body>
+</html>
